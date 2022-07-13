@@ -30,6 +30,6 @@ root = 5
 
 - 6 5'ten büyük ve 7'den küçük olduğu için 5 ve 7 arasında bulunur.
 
-- 8 7'den büyük olduğu için 7'nin sağında bulunur.
+- 8 5'ten ve 7'den büyük olduğu için 7'nin sağında bulunur.
 
 - 9 hepsinden büyük olduğu için en sağda bulunur.
