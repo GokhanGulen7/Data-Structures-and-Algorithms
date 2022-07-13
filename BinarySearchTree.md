@@ -2,36 +2,34 @@
 
 ## [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız. Örnek: root x'dir. root'un sağında y bulunur. Solunda z bulunur vb.
 
-root = 7
+root = 5
 
-                _________[7]_________
-                |                   |
-          _____[5]_____            [8]____
-          |           |                  |
-     ____[1]____     [6]                [9]
-     |         |
-    [0]    ___[3]___
-           |       |
-          [2]     [4]
+                   __________[5]___________
+                   |                      |
+          ________[3]_____          _____[7]____
+          |              |          |          |
+     ____[1]____        [4]        [6]        [8]____
+     |         |                                    |
+    [0]       [2]                                  [9]
 
 
 
-- Root 7'dir.
+- Root 5'tir.
 
-- 5, 7'den küçük olduğu için root'un solunda bulunur.
+- 3 5'ten küçük olduğu için root'un solunda bulunur.
 
-- 1, 7'den ve 5'ten küçük olduğu için 5'in solunda bulunur.
+- 1 5'ten ve 3'ten küçük olduğu için 3'ün solunda bulunur.
 
-- 8, 7'den büyük olduğu için 7'nin sağında bulunur.
+- 2 1'den büyük ve 3'ten küçük olduğu için 1 ve 3 arasında bulunur.
 
-- 3, 7'den ve 5'ten küçük; 1'den büyük olduğu için 1'in sağında bulunur.
+- 4 3'ten büyük ve 5'ten küçük olduğu için 3 ve 5 arasında bulunur.
 
-- 6, 7'den küçük 5'den büyük olduğu için 5'in sağında bulunur.
+- 0 hepsinden küçük olduğu için en solda bulunur.
 
-- 0, hepsinden küçük olduğu için kendinden önceki en küçük sayı olan 1'in solunda bulunur.
+- 7 5'ten büyük olduğu için root'un sağında bulunur.
 
-- 9 hepsinden büyük olduğu için kendinden önceki en büyük sayı olan 8'in sağında bulunur.
+- 6 5'ten büyük ve 7'den küçük olduğu için 5 ve 7 arasında bulunur.
 
-- 4, 7 ve 5'ten küçük; 1 ve 3'ten büyük olduğu için 3'ün sağında bulunur.
+- 8 7'den büyük olduğu için 7'nin sağında bulunur.
 
-- 2, 7 ve 5'ten küçük; 1'den büyük ve 3'ten küçük olduğu için 3'ün solunda bulunur.
+- 9 hepsinden büyük olduğu için en sağda bulunur.
