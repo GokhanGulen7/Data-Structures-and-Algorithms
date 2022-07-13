@@ -21,9 +21,9 @@ Best case: Aradığımız sayının dizinin en başında olması.
 Big-O: O(n²)
 
 ## 3. Time Complexity
-Average case: O(n²)
-Worst case: O(n²)
-Best case: O(n)
+- Average case: O(n²)
+- Worst case: O(n²)
+- Best case: O(n)
 
 ## 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 18 sayısı ortada olduğu için Average case kapsamına girer.
